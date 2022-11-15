@@ -7,7 +7,7 @@ def main():
 	return "welcome!"
 
 @app.route('/how are you')
-def helo():
+def app():
 	return 'I am good, how  about u?'
 
 	if __name__ == "__main__":
