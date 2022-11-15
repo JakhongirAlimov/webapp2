@@ -1,13 +1,13 @@
 import os
 from flask import Flask
-app = Flask(__name__)
+app = app(__name__)
 
 @app.route("/")
 def main():
 	return "welcome!"
 
 @app.route('/how are you')
-def app():
+def hello():
 	return 'I am good, how  about u?'
 
 	if __name__ == "__main__":
